@@ -1,0 +1,15 @@
+	INSTRUCTION               IN BINARY          IN HEX
+	
+
+	MOV A, #address            0011 address      3address
+	MOV B, #address            0100 address      4address 
+
+	ADD A, B                   0101 0000         50 
+	SUB A, B                   0110 0000         60
+	MUL A, B                   0111 0000         70
+	DIV A, B                   1000 0000         80
+
+	HLT                        1111 0000         f0  
+	JMP #address               1001 address      9address 
+	MOV A, [C]                 1100 address      Cadderss 
+	MOV A, #address            1010 0000         Aaddress

@@ -1,0 +1,2 @@
+This is the final prototype, it includes some sample programs, final control logic contents, a instruction set reference
+and the main circuit ofcource, with all the libraries you need to include :)
